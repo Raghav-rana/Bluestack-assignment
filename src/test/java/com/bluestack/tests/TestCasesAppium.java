@@ -11,7 +11,7 @@ public class TestCasesAppium extends TestBaseAppium {
 	public void testCase()
 			throws Exception {
 		SoftAssert assertion = new SoftAssert();
-		assertion.assertTrue(HomePageGameTv.getPresenceOfTwitterButton(), "twitter loging button not found");
+		assertion.assertTrue(HomePageGameTv.getPresenceOfTwitterButton(), "twitter login button not found");
 		HomePageGameTv.clickOnTwitterButton();
 		HomePageGameTv.setEmail("sxyz@gmail.com");
 		HomePageGameTv.setPassword("*****");
