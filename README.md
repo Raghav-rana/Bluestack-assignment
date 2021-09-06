@@ -3,6 +3,7 @@ Web(question 1) and Mobile (Question 2) Automation using Selenium and Appium wit
 
 # Getting Started
 1.	Software dependencies
+	- Appium desktop client
 	- JDK 16.0.2
 	- Android SDK
 	- Eclipse latest IDE for Java Developers.
